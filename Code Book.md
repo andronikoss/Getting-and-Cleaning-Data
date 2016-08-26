@@ -8,7 +8,7 @@ This code book summarizes the resulting data fields after running `run_analysis.
 ## All Measurements
 Below you can find the full list of all features used in the merged dataset. They consist of two elements the function which where used to calculate and the particular signals. Following signals were used for capturing the performance of body:
 
-# SIGNALS
+#### Signals
 * `tBodyAcc-XYZ`,  `tGravityAcc-XYZ`, `tBodyAccJerk-XYZ`
 * `tBodyGyro-XYZ`,`tBodyGyroJerk-XYZ`, `tBodyAccMag`
 * `tGravityAccMag`,`tBodyAccJerkMag`,`tBodyGyroMag`
@@ -19,7 +19,7 @@ Below you can find the full list of all features used in the merged dataset. The
 
 The following set of functions were implemented on computing the variables of dataset.
 
-# FUNCTIONS
+#### Functions
 
 * `mean()`: Mean value
 * `std()`: Standard deviation
