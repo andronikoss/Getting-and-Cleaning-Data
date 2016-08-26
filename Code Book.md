@@ -6,567 +6,568 @@ This code book summarizes the resulting data fields after running `run_analysis.
 * `activity` - The kind/type of activity performed.
 
 ## All Measurements
-* `Mean.of.tBodyAccX`
-* `Mean.of.tBodyAccY`
-* `Mean.of.tBodyAccZ`
-* `Std.of.tBodyAccX`
-* `Std.of.tBodyAccY`
-* `Std.of.tBodyAccZ`
-* `Mad.of.tBodyAccX`
-* `Mad.of.tBodyAccY`
-* `Mad.of.tBodyAccZ`
-* `Max.of.tBodyAccX`
-* `Max.of.tBodyAccY`
-* `Max.of.tBodyAccZ`
-* `Min.of.tBodyAccX`
-* `Min.of.tBodyAccY`
-* `Min.of.tBodyAccZ`
-* `Sma.of.tBodyAcc`
-* `Energy.of.tBodyAccX`
-* `Energy.of.tBodyAccY`
-* `Energy.of.tBodyAccZ`
-* `Iqr.of.tBodyAccX`
-* `Iqr.of.tBodyAccY`
-* `Iqr.of.tBodyAccZ`
-* `Entropy.of.tBodyAccX`
-* `Entropy.of.tBodyAccY`
-* `Entropy.of.tBodyAccZ`
-* `ArCoeff.of.tBodyAccX,1`
-* `ArCoeff.of.tBodyAccX,2`
-* `ArCoeff.of.tBodyAccX,3`
-* `ArCoeff.of.tBodyAccX,4`
-* `ArCoeff.of.tBodyAccY,1`
-* `ArCoeff.of.tBodyAccY,2`
-* `ArCoeff.of.tBodyAccY,3`
-* `ArCoeff.of.tBodyAccY,4`
-* `ArCoeff.of.tBodyAccZ,1`
-* `ArCoeff.of.tBodyAccZ,2`
-* `ArCoeff.of.tBodyAccZ,3`
-* `ArCoeff.of.tBodyAccZ,4`
-* `Correlation.of.tBodyAccX,Y`
-* `Correlation.of.tBodyAccX,Z`
-* `Correlation.of.tBodyAccY,Z`
-* `Mean.of.tGravityAccX`
-* `Mean.of.tGravityAccY`
-* `Mean.of.tGravityAccZ`
-* `Std.of.tGravityAccX`
-* `Std.of.tGravityAccY`
-* `Std.of.tGravityAccZ`
-* `Mad.of.tGravityAccX`
-* `Mad.of.tGravityAccY`
-* `Mad.of.tGravityAccZ`
-* `Max.of.tGravityAccX`
-* `Max.of.tGravityAccY`
-* `Max.of.tGravityAccZ`
-* `Min.of.tGravityAccX`
-* `Min.of.tGravityAccY`
-* `Min.of.tGravityAccZ`
-* `Sma.of.tGravityAcc`
-* `Energy.of.tGravityAccX`
-* `Energy.of.tGravityAccY`
-* `Energy.of.tGravityAccZ`
-* `Iqr.of.tGravityAccX`
-* `Iqr.of.tGravityAccY`
-* `Iqr.of.tGravityAccZ`
-* `Entropy.of.tGravityAccX`
-* `Entropy.of.tGravityAccY`
-* `Entropy.of.tGravityAccZ`
-* `ArCoeff.of.tGravityAccX,1`
-* `ArCoeff.of.tGravityAccX,2`
-* `ArCoeff.of.tGravityAccX,3`
-* `ArCoeff.of.tGravityAccX,4`
-* `ArCoeff.of.tGravityAccY,1`
-* `ArCoeff.of.tGravityAccY,2`
-* `ArCoeff.of.tGravityAccY,3`
-* `ArCoeff.of.tGravityAccY,4`
-* `ArCoeff.of.tGravityAccZ,1`
-* `ArCoeff.of.tGravityAccZ,2`
-* `ArCoeff.of.tGravityAccZ,3`
-* `ArCoeff.of.tGravityAccZ,4`
-* `Correlation.of.tGravityAccX,Y`
-* `Correlation.of.tGravityAccX,Z`
-* `Correlation.of.tGravityAccY,Z`
-* `Mean.of.tBodyAccJerkX`
-* `Mean.of.tBodyAccJerkY`
-* `Mean.of.tBodyAccJerkZ`
-* `Std.of.tBodyAccJerkX`
-* `Std.of.tBodyAccJerkY`
-* `Std.of.tBodyAccJerkZ`
-* `Mad.of.tBodyAccJerkX`
-* `Mad.of.tBodyAccJerkY`
-* `Mad.of.tBodyAccJerkZ`
-* `Max.of.tBodyAccJerkX`
-* `Max.of.tBodyAccJerkY`
-* `Max.of.tBodyAccJerkZ`
-* `Min.of.tBodyAccJerkX`
-* `Min.of.tBodyAccJerkY`
-* `Min.of.tBodyAccJerkZ`
-* `Sma.of.tBodyAccJerk`
-* `Energy.of.tBodyAccJerkX`
-* `Energy.of.tBodyAccJerkY`
-* `Energy.of.tBodyAccJerkZ`
-* `Iqr.of.tBodyAccJerkX`
-* `Iqr.of.tBodyAccJerkY`
-* `Iqr.of.tBodyAccJerkZ`
-* `Entropy.of.tBodyAccJerkX`
-* `Entropy.of.tBodyAccJerkY`
-* `Entropy.of.tBodyAccJerkZ`
-* `ArCoeff.of.tBodyAccJerkX,1`
-* `ArCoeff.of.tBodyAccJerkX,2`
-* `ArCoeff.of.tBodyAccJerkX,3`
-* `ArCoeff.of.tBodyAccJerkX,4`
-* `ArCoeff.of.tBodyAccJerkY,1`
-* `ArCoeff.of.tBodyAccJerkY,2`
-* `ArCoeff.of.tBodyAccJerkY,3`
-* `ArCoeff.of.tBodyAccJerkY,4`
-* `ArCoeff.of.tBodyAccJerkZ,1`
-* `ArCoeff.of.tBodyAccJerkZ,2`
-* `ArCoeff.of.tBodyAccJerkZ,3`
-* `ArCoeff.of.tBodyAccJerkZ,4`
-* `Correlation.of.tBodyAccJerkX,Y`
-* `Correlation.of.tBodyAccJerkX,Z`
-* `Correlation.of.tBodyAccJerkY,Z`
-* `Mean.of.tBodyGyroX`
-* `Mean.of.tBodyGyroY`
-* `Mean.of.tBodyGyroZ`
-* `Std.of.tBodyGyroX`
-* `Std.of.tBodyGyroY`
-* `Std.of.tBodyGyroZ`
-* `Mad.of.tBodyGyroX`
-* `Mad.of.tBodyGyroY`
-* `Mad.of.tBodyGyroZ`
-* `Max.of.tBodyGyroX`
-* `Max.of.tBodyGyroY`
-* `Max.of.tBodyGyroZ`
-* `Min.of.tBodyGyroX`
-* `Min.of.tBodyGyroY`
-* `Min.of.tBodyGyroZ`
-* `Sma.of.tBodyGyro`
-* `Energy.of.tBodyGyroX`
-* `Energy.of.tBodyGyroY`
-* `Energy.of.tBodyGyroZ`
-* `Iqr.of.tBodyGyroX`
-* `Iqr.of.tBodyGyroY`
-* `Iqr.of.tBodyGyroZ`
-* `Entropy.of.tBodyGyroX`
-* `Entropy.of.tBodyGyroY`
-* `Entropy.of.tBodyGyroZ`
-* `ArCoeff.of.tBodyGyroX,1`
-* `ArCoeff.of.tBodyGyroX,2`
-* `ArCoeff.of.tBodyGyroX,3`
-* `ArCoeff.of.tBodyGyroX,4`
-* `ArCoeff.of.tBodyGyroY,1`
-* `ArCoeff.of.tBodyGyroY,2`
-* `ArCoeff.of.tBodyGyroY,3`
-* `ArCoeff.of.tBodyGyroY,4`
-* `ArCoeff.of.tBodyGyroZ,1`
-* `ArCoeff.of.tBodyGyroZ,2`
-* `ArCoeff.of.tBodyGyroZ,3`
-* `ArCoeff.of.tBodyGyroZ,4`
-* `Correlation.of.tBodyGyroX,Y`
-* `Correlation.of.tBodyGyroX,Z`
-* `Correlation.of.tBodyGyroY,Z`
-* `Mean.of.tBodyGyroJerkX`
-* `Mean.of.tBodyGyroJerkY`
-* `Mean.of.tBodyGyroJerkZ`
-* `Std.of.tBodyGyroJerkX`
-* `Std.of.tBodyGyroJerkY`
-* `Std.of.tBodyGyroJerkZ`
-* `Mad.of.tBodyGyroJerkX`
-* `Mad.of.tBodyGyroJerkY`
-* `Mad.of.tBodyGyroJerkZ`
-* `Max.of.tBodyGyroJerkX`
-* `Max.of.tBodyGyroJerkY`
-* `Max.of.tBodyGyroJerkZ`
-* `Min.of.tBodyGyroJerkX`
-* `Min.of.tBodyGyroJerkY`
-* `Min.of.tBodyGyroJerkZ`
-* `Sma.of.tBodyGyroJerk`
-* `Energy.of.tBodyGyroJerkX`
-* `Energy.of.tBodyGyroJerkY`
-* `Energy.of.tBodyGyroJerkZ`
-* `Iqr.of.tBodyGyroJerkX`
-* `Iqr.of.tBodyGyroJerkY`
-* `Iqr.of.tBodyGyroJerkZ`
-* `Entropy.of.tBodyGyroJerkX`
-* `Entropy.of.tBodyGyroJerkY`
-* `Entropy.of.tBodyGyroJerkZ`
-* `ArCoeff.of.tBodyGyroJerkX,1`
-* `ArCoeff.of.tBodyGyroJerkX,2`
-* `ArCoeff.of.tBodyGyroJerkX,3`
-* `ArCoeff.of.tBodyGyroJerkX,4`
-* `ArCoeff.of.tBodyGyroJerkY,1`
-* `ArCoeff.of.tBodyGyroJerkY,2`
-* `ArCoeff.of.tBodyGyroJerkY,3`
-* `ArCoeff.of.tBodyGyroJerkY,4`
-* `ArCoeff.of.tBodyGyroJerkZ,1`
-* `ArCoeff.of.tBodyGyroJerkZ,2`
-* `ArCoeff.of.tBodyGyroJerkZ,3`
-* `ArCoeff.of.tBodyGyroJerkZ,4`
-* `Correlation.of.tBodyGyroJerkX,Y`
-* `Correlation.of.tBodyGyroJerkX,Z`
-* `Correlation.of.tBodyGyroJerkY,Z`
-* `Mean.of.tBodyAccMag`
-* `Std.of.tBodyAccMag`
-* `Mad.of.tBodyAccMag`
-* `Max.of.tBodyAccMag`
-* `Min.of.tBodyAccMag`
-* `Sma.of.tBodyAccMag`
-* `Energy.of.tBodyAccMag`
-* `Iqr.of.tBodyAccMag`
-* `Entropy.of.tBodyAccMag`
-* `ArCoeff.of.tBodyAccMag1`
-* `ArCoeff.of.tBodyAccMag2`
-* `ArCoeff.of.tBodyAccMag3`
-* `ArCoeff.of.tBodyAccMag4`
-* `Mean.of.tGravityAccMag`
-* `Std.of.tGravityAccMag`
-* `Mad.of.tGravityAccMag`
-* `Max.of.tGravityAccMag`
-* `Min.of.tGravityAccMag`
-* `Sma.of.tGravityAccMag`
-* `Energy.of.tGravityAccMag`
-* `Iqr.of.tGravityAccMag`
-* `Entropy.of.tGravityAccMag`
-* `ArCoeff.of.tGravityAccMag1`
-* `ArCoeff.of.tGravityAccMag2`
-* `ArCoeff.of.tGravityAccMag3`
-* `ArCoeff.of.tGravityAccMag4`
-* `Mean.of.tBodyAccJerkMag`
-* `Std.of.tBodyAccJerkMag`
-* `Mad.of.tBodyAccJerkMag`
-* `Max.of.tBodyAccJerkMag`
-* `Min.of.tBodyAccJerkMag`
-* `Sma.of.tBodyAccJerkMag`
-* `Energy.of.tBodyAccJerkMag`
-* `Iqr.of.tBodyAccJerkMag`
-* `Entropy.of.tBodyAccJerkMag`
-* `ArCoeff.of.tBodyAccJerkMag1`
-* `ArCoeff.of.tBodyAccJerkMag2`
-* `ArCoeff.of.tBodyAccJerkMag3`
-* `ArCoeff.of.tBodyAccJerkMag4`
-* `Mean.of.tBodyGyroMag`
-* `Std.of.tBodyGyroMag`
-* `Mad.of.tBodyGyroMag`
-* `Max.of.tBodyGyroMag`
-* `Min.of.tBodyGyroMag`
-* `Sma.of.tBodyGyroMag`
-* `Energy.of.tBodyGyroMag`
-* `Iqr.of.tBodyGyroMag`
-* `Entropy.of.tBodyGyroMag`
-* `ArCoeff.of.tBodyGyroMag1`
-* `ArCoeff.of.tBodyGyroMag2`
-* `ArCoeff.of.tBodyGyroMag3`
-* `ArCoeff.of.tBodyGyroMag4`
-* `Mean.of.tBodyGyroJerkMag`
-* `Std.of.tBodyGyroJerkMag`
-* `Mad.of.tBodyGyroJerkMag`
-* `Max.of.tBodyGyroJerkMag`
-* `Min.of.tBodyGyroJerkMag`
-* `Sma.of.tBodyGyroJerkMag`
-* `Energy.of.tBodyGyroJerkMag`
-* `Iqr.of.tBodyGyroJerkMag`
-* `Entropy.of.tBodyGyroJerkMag`
-* `ArCoeff.of.tBodyGyroJerkMag1`
-* `ArCoeff.of.tBodyGyroJerkMag2`
-* `ArCoeff.of.tBodyGyroJerkMag3`
-* `ArCoeff.of.tBodyGyroJerkMag4`
-* `Mean.of.fBodyAccX`
-* `Mean.of.fBodyAccY`
-* `Mean.of.fBodyAccZ`
-* `Std.of.fBodyAccX`
-* `Std.of.fBodyAccY`
-* `Std.of.fBodyAccZ`
-* `Mad.of.fBodyAccX`
-* `Mad.of.fBodyAccY`
-* `Mad.of.fBodyAccZ`
-* `Max.of.fBodyAccX`
-* `Max.of.fBodyAccY`
-* `Max.of.fBodyAccZ`
-* `Min.of.fBodyAccX`
-* `Min.of.fBodyAccY`
-* `Min.of.fBodyAccZ`
-* `Sma.of.fBodyAcc`
-* `Energy.of.fBodyAccX`
-* `Energy.of.fBodyAccY`
-* `Energy.of.fBodyAccZ`
-* `Iqr.of.fBodyAccX`
-* `Iqr.of.fBodyAccY`
-* `Iqr.of.fBodyAccZ`
-* `Entropy.of.fBodyAccX`
-* `Entropy.of.fBodyAccY`
-* `Entropy.of.fBodyAccZ`
-* `Max.of.fBodyAcc-Inds-X`
-* `Max.of.fBodyAcc-Inds-Y`
-* `Max.of.fBodyAcc-Inds-Z`
-* `Mean.of.fBodyAcc-Freq()-X`
-* `Mean.of.fBodyAcc-Freq()-Y`
-* `Mean.of.fBodyAcc-Freq()-Z`
-* `Skewness.of.fBodyAccX`
-* `Kurtosis.of.fBodyAccX`
-* `Skewness.of.fBodyAccY`
-* `Kurtosis.of.fBodyAccY`
-* `Skewness.of.fBodyAccZ`
-* `Kurtosis.of.fBodyAccZ`
-* `BandsEnergy.of.fBodyAcc1,8`
-* `BandsEnergy.of.fBodyAcc9,16`
-* `BandsEnergy.of.fBodyAcc17,24`
-* `BandsEnergy.of.fBodyAcc25,32`
-* `BandsEnergy.of.fBodyAcc33,40`
-* `BandsEnergy.of.fBodyAcc41,48`
-* `BandsEnergy.of.fBodyAcc49,56`
-* `BandsEnergy.of.fBodyAcc57,64`
-* `BandsEnergy.of.fBodyAcc1,16`
-* `BandsEnergy.of.fBodyAcc17,32`
-* `BandsEnergy.of.fBodyAcc33,48`
-* `BandsEnergy.of.fBodyAcc49,64`
-* `BandsEnergy.of.fBodyAcc1,24`
-* `BandsEnergy.of.fBodyAcc25,48`
-* `BandsEnergy.of.fBodyAcc1,8`
-* `BandsEnergy.of.fBodyAcc9,16`
-* `BandsEnergy.of.fBodyAcc17,24`
-* `BandsEnergy.of.fBodyAcc25,32`
-* `BandsEnergy.of.fBodyAcc33,40`
-* `BandsEnergy.of.fBodyAcc41,48`
-* `BandsEnergy.of.fBodyAcc49,56`
-* `BandsEnergy.of.fBodyAcc57,64`
-* `BandsEnergy.of.fBodyAcc1,16`
-* `BandsEnergy.of.fBodyAcc17,32`
-* `BandsEnergy.of.fBodyAcc33,48`
-* `BandsEnergy.of.fBodyAcc49,64`
-* `BandsEnergy.of.fBodyAcc1,24`
-* `BandsEnergy.of.fBodyAcc25,48`
-* `BandsEnergy.of.fBodyAcc1,8`
-* `BandsEnergy.of.fBodyAcc9,16`
-* `BandsEnergy.of.fBodyAcc17,24`
-* `BandsEnergy.of.fBodyAcc25,32`
-* `BandsEnergy.of.fBodyAcc33,40`
-* `BandsEnergy.of.fBodyAcc41,48`
-* `BandsEnergy.of.fBodyAcc49,56`
-* `BandsEnergy.of.fBodyAcc57,64`
-* `BandsEnergy.of.fBodyAcc1,16`
-* `BandsEnergy.of.fBodyAcc17,32`
-* `BandsEnergy.of.fBodyAcc33,48`
-* `BandsEnergy.of.fBodyAcc49,64`
-* `BandsEnergy.of.fBodyAcc1,24`
-* `BandsEnergy.of.fBodyAcc25,48`
-* `Mean.of.fBodyAccJerkX`
-* `Mean.of.fBodyAccJerkY`
-* `Mean.of.fBodyAccJerkZ`
-* `Std.of.fBodyAccJerkX`
-* `Std.of.fBodyAccJerkY`
-* `Std.of.fBodyAccJerkZ`
-* `Mad.of.fBodyAccJerkX`
-* `Mad.of.fBodyAccJerkY`
-* `Mad.of.fBodyAccJerkZ`
-* `Max.of.fBodyAccJerkX`
-* `Max.of.fBodyAccJerkY`
-* `Max.of.fBodyAccJerkZ`
-* `Min.of.fBodyAccJerkX`
-* `Min.of.fBodyAccJerkY`
-* `Min.of.fBodyAccJerkZ`
-* `Sma.of.fBodyAccJerk`
-* `Energy.of.fBodyAccJerkX`
-* `Energy.of.fBodyAccJerkY`
-* `Energy.of.fBodyAccJerkZ`
-* `Iqr.of.fBodyAccJerkX`
-* `Iqr.of.fBodyAccJerkY`
-* `Iqr.of.fBodyAccJerkZ`
-* `Entropy.of.fBodyAccJerkX`
-* `Entropy.of.fBodyAccJerkY`
-* `Entropy.of.fBodyAccJerkZ`
-* `Max.of.fBodyAccJerk-Inds-X`
-* `Max.of.fBodyAccJerk-Inds-Y`
-* `Max.of.fBodyAccJerk-Inds-Z`
-* `Mean.of.fBodyAccJerk-Freq()-X`
-* `Mean.of.fBodyAccJerk-Freq()-Y`
-* `Mean.of.fBodyAccJerk-Freq()-Z`
-* `Skewness.of.fBodyAccJerkX`
-* `Kurtosis.of.fBodyAccJerkX`
-* `Skewness.of.fBodyAccJerkY`
-* `Kurtosis.of.fBodyAccJerkY`
-* `Skewness.of.fBodyAccJerkZ`
-* `Kurtosis.of.fBodyAccJerkZ`
-* `BandsEnergy.of.fBodyAccJerk1,8`
-* `BandsEnergy.of.fBodyAccJerk9,16`
-* `BandsEnergy.of.fBodyAccJerk17,24`
-* `BandsEnergy.of.fBodyAccJerk25,32`
-* `BandsEnergy.of.fBodyAccJerk33,40`
-* `BandsEnergy.of.fBodyAccJerk41,48`
-* `BandsEnergy.of.fBodyAccJerk49,56`
-* `BandsEnergy.of.fBodyAccJerk57,64`
-* `BandsEnergy.of.fBodyAccJerk1,16`
-* `BandsEnergy.of.fBodyAccJerk17,32`
-* `BandsEnergy.of.fBodyAccJerk33,48`
-* `BandsEnergy.of.fBodyAccJerk49,64`
-* `BandsEnergy.of.fBodyAccJerk1,24`
-* `BandsEnergy.of.fBodyAccJerk25,48`
-* `BandsEnergy.of.fBodyAccJerk1,8`
-* `BandsEnergy.of.fBodyAccJerk9,16`
-* `BandsEnergy.of.fBodyAccJerk17,24`
-* `BandsEnergy.of.fBodyAccJerk25,32`
-* `BandsEnergy.of.fBodyAccJerk33,40`
-* `BandsEnergy.of.fBodyAccJerk41,48`
-* `BandsEnergy.of.fBodyAccJerk49,56`
-* `BandsEnergy.of.fBodyAccJerk57,64`
-* `BandsEnergy.of.fBodyAccJerk1,16`
-* `BandsEnergy.of.fBodyAccJerk17,32`
-* `BandsEnergy.of.fBodyAccJerk33,48`
-* `BandsEnergy.of.fBodyAccJerk49,64`
-* `BandsEnergy.of.fBodyAccJerk1,24`
-* `BandsEnergy.of.fBodyAccJerk25,48`
-* `BandsEnergy.of.fBodyAccJerk1,8`
-* `BandsEnergy.of.fBodyAccJerk9,16`
-* `BandsEnergy.of.fBodyAccJerk17,24`
-* `BandsEnergy.of.fBodyAccJerk25,32`
-* `BandsEnergy.of.fBodyAccJerk33,40`
-* `BandsEnergy.of.fBodyAccJerk41,48`
-* `BandsEnergy.of.fBodyAccJerk49,56`
-* `BandsEnergy.of.fBodyAccJerk57,64`
-* `BandsEnergy.of.fBodyAccJerk1,16`
-* `BandsEnergy.of.fBodyAccJerk17,32`
-* `BandsEnergy.of.fBodyAccJerk33,48`
-* `BandsEnergy.of.fBodyAccJerk49,64`
-* `BandsEnergy.of.fBodyAccJerk1,24`
-* `BandsEnergy.of.fBodyAccJerk25,48`
-* `Mean.of.fBodyGyroX`
-* `Mean.of.fBodyGyroY`
-* `Mean.of.fBodyGyroZ`
-* `Std.of.fBodyGyroX`
-* `Std.of.fBodyGyroY`
-* `Std.of.fBodyGyroZ`
-* `Mad.of.fBodyGyroX`
-* `Mad.of.fBodyGyroY`
-* `Mad.of.fBodyGyroZ`
-* `Max.of.fBodyGyroX`
-* `Max.of.fBodyGyroY`
-* `Max.of.fBodyGyroZ`
-* `Min.of.fBodyGyroX`
-* `Min.of.fBodyGyroY`
-* `Min.of.fBodyGyroZ`
-* `Sma.of.fBodyGyro`
-* `Energy.of.fBodyGyroX`
-* `Energy.of.fBodyGyroY`
-* `Energy.of.fBodyGyroZ`
-* `Iqr.of.fBodyGyroX`
-* `Iqr.of.fBodyGyroY`
-* `Iqr.of.fBodyGyroZ`
-* `Entropy.of.fBodyGyroX`
-* `Entropy.of.fBodyGyroY`
-* `Entropy.of.fBodyGyroZ`
-* `Max.of.fBodyGyro-Inds-X`
-* `Max.of.fBodyGyro-Inds-Y`
-* `Max.of.fBodyGyro-Inds-Z`
-* `Mean.of.fBodyGyro-Freq()-X`
-* `Mean.of.fBodyGyro-Freq()-Y`
-* `Mean.of.fBodyGyro-Freq()-Z`
-* `Skewness.of.fBodyGyroX`
-* `Kurtosis.of.fBodyGyroX`
-* `Skewness.of.fBodyGyroY`
-* `Kurtosis.of.fBodyGyroY`
-* `Skewness.of.fBodyGyroZ`
-* `Kurtosis.of.fBodyGyroZ`
-* `BandsEnergy.of.fBodyGyro1,8`
-* `BandsEnergy.of.fBodyGyro9,16`
-* `BandsEnergy.of.fBodyGyro17,24`
-* `BandsEnergy.of.fBodyGyro25,32`
-* `BandsEnergy.of.fBodyGyro33,40`
-* `BandsEnergy.of.fBodyGyro41,48`
-* `BandsEnergy.of.fBodyGyro49,56`
-* `BandsEnergy.of.fBodyGyro57,64`
-* `BandsEnergy.of.fBodyGyro1,16`
-* `BandsEnergy.of.fBodyGyro17,32`
-* `BandsEnergy.of.fBodyGyro33,48`
-* `BandsEnergy.of.fBodyGyro49,64`
-* `BandsEnergy.of.fBodyGyro1,24`
-* `BandsEnergy.of.fBodyGyro25,48`
-* `BandsEnergy.of.fBodyGyro1,8`
-* `BandsEnergy.of.fBodyGyro9,16`
-* `BandsEnergy.of.fBodyGyro17,24`
-* `BandsEnergy.of.fBodyGyro25,32`
-* `BandsEnergy.of.fBodyGyro33,40`
-* `BandsEnergy.of.fBodyGyro41,48`
-* `BandsEnergy.of.fBodyGyro49,56`
-* `BandsEnergy.of.fBodyGyro57,64`
-* `BandsEnergy.of.fBodyGyro1,16`
-* `BandsEnergy.of.fBodyGyro17,32`
-* `BandsEnergy.of.fBodyGyro33,48`
-* `BandsEnergy.of.fBodyGyro49,64`
-* `BandsEnergy.of.fBodyGyro1,24`
-* `BandsEnergy.of.fBodyGyro25,48`
-* `BandsEnergy.of.fBodyGyro1,8`
-* `BandsEnergy.of.fBodyGyro9,16`
-* `BandsEnergy.of.fBodyGyro17,24`
-* `BandsEnergy.of.fBodyGyro25,32`
-* `BandsEnergy.of.fBodyGyro33,40`
-* `BandsEnergy.of.fBodyGyro41,48`
-* `BandsEnergy.of.fBodyGyro49,56`
-* `BandsEnergy.of.fBodyGyro57,64`
-* `BandsEnergy.of.fBodyGyro1,16`
-* `BandsEnergy.of.fBodyGyro17,32`
-* `BandsEnergy.of.fBodyGyro33,48`
-* `BandsEnergy.of.fBodyGyro49,64`
-* `BandsEnergy.of.fBodyGyro1,24`
-* `BandsEnergy.of.fBodyGyro25,48`
-* `Mean.of.fBodyAccMag`
-* `Std.of.fBodyAccMag`
-* `Mad.of.fBodyAccMag`
-* `Max.of.fBodyAccMag`
-* `Min.of.fBodyAccMag`
-* `Sma.of.fBodyAccMag`
-* `Energy.of.fBodyAccMag`
-* `Iqr.of.fBodyAccMag`
-* `Entropy.of.fBodyAccMag`
-* `Max.of.fBodyAccMag-Inds`
-* `Mean.of.fBodyAccMag-Freq()`
-* `Skewness.of.fBodyAccMag`
-* `Kurtosis.of.fBodyAccMag`
-* `Mean.of.fBodyBodyAccJerkMag`
-* `Std.of.fBodyBodyAccJerkMag`
-* `Mad.of.fBodyBodyAccJerkMag`
-* `Max.of.fBodyBodyAccJerkMag`
-* `Min.of.fBodyBodyAccJerkMag`
-* `Sma.of.fBodyBodyAccJerkMag`
-* `Energy.of.fBodyBodyAccJerkMag`
-* `Iqr.of.fBodyBodyAccJerkMag`
-* `Entropy.of.fBodyBodyAccJerkMag`
-* `Max.of.fBodyBodyAccJerkMag-Inds`
-* `Mean.of.fBodyBodyAccJerkMag-Freq()`
-* `Skewness.of.fBodyBodyAccJerkMag`
-* `Kurtosis.of.fBodyBodyAccJerkMag`
-* `Mean.of.fBodyBodyGyroMag`
-* `Std.of.fBodyBodyGyroMag`
-* `Mad.of.fBodyBodyGyroMag`
-* `Max.of.fBodyBodyGyroMag`
-* `Min.of.fBodyBodyGyroMag`
-* `Sma.of.fBodyBodyGyroMag`
-* `Energy.of.fBodyBodyGyroMag`
-* `Iqr.of.fBodyBodyGyroMag`
-* `Entropy.of.fBodyBodyGyroMag`
-* `Max.of.fBodyBodyGyroMag-Inds`
-* `Mean.of.fBodyBodyGyroMag-Freq()`
-* `Skewness.of.fBodyBodyGyroMag`
-* `Kurtosis.of.fBodyBodyGyroMag`
-* `Mean.of.fBodyBodyGyroJerkMag`
-* `Std.of.fBodyBodyGyroJerkMag`
-* `Mad.of.fBodyBodyGyroJerkMag`
-* `Max.of.fBodyBodyGyroJerkMag`
-* `Min.of.fBodyBodyGyroJerkMag`
-* `Sma.of.fBodyBodyGyroJerkMag`
-* `Energy.of.fBodyBodyGyroJerkMag`
-* `Iqr.of.fBodyBodyGyroJerkMag`
-* `Entropy.of.fBodyBodyGyroJerkMag`
-* `Max.of.fBodyBodyGyroJerkMag-Inds`
-* `Mean.of.fBodyBodyGyroJerkMag-Freq()`
-* `Skewness.of.fBodyBodyGyroJerkMag`
-* `Kurtosis.of.fBodyBodyGyroJerkMag`
-* `Angle.of.(tBodyAccMean,gravity)`
-* `Angle.of.(tBodyAccJerkMean),gravityMean)`
-* `Angle.of.(tBodyGyroMean,gravityMean)`
-* `Angle.of.(tBodyGyroJerkMean,gravityMean)`
-* `Angle.of.(X,gravityMean)`
-* `Angle.of.(Y,gravityMean)`
-* `Angle.of.(Z,gravityMean)`
+* ` Mean.of.tBodyAccX `
+* ` Mean.of.tBodyAccY `
+* ` Mean.of.tBodyAccZ `
+* ` Std.of.tBodyAccX `
+* ` Std.of.tBodyAccY `
+* ` Std.of.tBodyAccZ `
+* ` Mad.of.tBodyAccX `
+* ` Mad.of.tBodyAccY `
+* ` Mad.of.tBodyAccZ `
+* ` Max.of.tBodyAccX `
+* ` Max.of.tBodyAccY `
+* ` Max.of.tBodyAccZ `
+* ` Min.of.tBodyAccX `
+* ` Min.of.tBodyAccY `
+* ` Min.of.tBodyAccZ `
+* ` Sma.of.tBodyAcc `
+* ` Energy.of.tBodyAccX `
+* ` Energy.of.tBodyAccY `
+* ` Energy.of.tBodyAccZ `
+* ` Iqr.of.tBodyAccX `
+* ` Iqr.of.tBodyAccY `
+* ` Iqr.of.tBodyAccZ `
+* ` Entropy.of.tBodyAccX `
+* ` Entropy.of.tBodyAccY `
+* ` Entropy.of.tBodyAccZ `
+* ` ArCoeff.of.tBodyAccX,1 `
+* ` ArCoeff.of.tBodyAccX,2 `
+* ` ArCoeff.of.tBodyAccX,3 `
+* ` ArCoeff.of.tBodyAccX,4 `
+* ` ArCoeff.of.tBodyAccY,1 `
+* ` ArCoeff.of.tBodyAccY,2 `
+* ` ArCoeff.of.tBodyAccY,3 `
+* ` ArCoeff.of.tBodyAccY,4 `
+* ` ArCoeff.of.tBodyAccZ,1 `
+* ` ArCoeff.of.tBodyAccZ,2 `
+* ` ArCoeff.of.tBodyAccZ,3 `
+* ` ArCoeff.of.tBodyAccZ,4 `
+* ` Correlation.of.tBodyAccX,Y `
+* ` Correlation.of.tBodyAccX,Z `
+* ` Correlation.of.tBodyAccY,Z `
+* ` Mean.of.tGravityAccX `
+* ` Mean.of.tGravityAccY `
+* ` Mean.of.tGravityAccZ `
+* ` Std.of.tGravityAccX `
+* ` Std.of.tGravityAccY `
+* ` Std.of.tGravityAccZ `
+* ` Mad.of.tGravityAccX `
+* ` Mad.of.tGravityAccY `
+* ` Mad.of.tGravityAccZ `
+* ` Max.of.tGravityAccX `
+* ` Max.of.tGravityAccY `
+* ` Max.of.tGravityAccZ `
+* ` Min.of.tGravityAccX `
+* ` Min.of.tGravityAccY `
+* ` Min.of.tGravityAccZ `
+* ` Sma.of.tGravityAcc `
+* ` Energy.of.tGravityAccX `
+* ` Energy.of.tGravityAccY `
+* ` Energy.of.tGravityAccZ `
+* ` Iqr.of.tGravityAccX `
+* ` Iqr.of.tGravityAccY `
+* ` Iqr.of.tGravityAccZ `
+* ` Entropy.of.tGravityAccX `
+* ` Entropy.of.tGravityAccY `
+* ` Entropy.of.tGravityAccZ `
+* ` ArCoeff.of.tGravityAccX,1 `
+* ` ArCoeff.of.tGravityAccX,2 `
+* ` ArCoeff.of.tGravityAccX,3 `
+* ` ArCoeff.of.tGravityAccX,4 `
+* ` ArCoeff.of.tGravityAccY,1 `
+* ` ArCoeff.of.tGravityAccY,2 `
+* ` ArCoeff.of.tGravityAccY,3 `
+* ` ArCoeff.of.tGravityAccY,4 `
+* ` ArCoeff.of.tGravityAccZ,1 `
+* ` ArCoeff.of.tGravityAccZ,2 `
+* ` ArCoeff.of.tGravityAccZ,3 `
+* ` ArCoeff.of.tGravityAccZ,4 `
+* ` Correlation.of.tGravityAccX,Y `
+* ` Correlation.of.tGravityAccX,Z `
+* ` Correlation.of.tGravityAccY,Z `
+* ` Mean.of.tBodyAccJerkX `
+* ` Mean.of.tBodyAccJerkY `
+* ` Mean.of.tBodyAccJerkZ `
+* ` Std.of.tBodyAccJerkX `
+* ` Std.of.tBodyAccJerkY `
+* ` Std.of.tBodyAccJerkZ `
+* ` Mad.of.tBodyAccJerkX `
+* ` Mad.of.tBodyAccJerkY `
+* ` Mad.of.tBodyAccJerkZ `
+* ` Max.of.tBodyAccJerkX `
+* ` Max.of.tBodyAccJerkY `
+* ` Max.of.tBodyAccJerkZ `
+* ` Min.of.tBodyAccJerkX `
+* ` Min.of.tBodyAccJerkY `
+* ` Min.of.tBodyAccJerkZ `
+* ` Sma.of.tBodyAccJerk `
+* ` Energy.of.tBodyAccJerkX `
+* ` Energy.of.tBodyAccJerkY `
+* ` Energy.of.tBodyAccJerkZ `
+* ` Iqr.of.tBodyAccJerkX `
+* ` Iqr.of.tBodyAccJerkY `
+* ` Iqr.of.tBodyAccJerkZ `
+* ` Entropy.of.tBodyAccJerkX `
+* ` Entropy.of.tBodyAccJerkY `
+* ` Entropy.of.tBodyAccJerkZ `
+* ` ArCoeff.of.tBodyAccJerkX,1 `
+* ` ArCoeff.of.tBodyAccJerkX,2 `
+* ` ArCoeff.of.tBodyAccJerkX,3 `
+* ` ArCoeff.of.tBodyAccJerkX,4 `
+* ` ArCoeff.of.tBodyAccJerkY,1 `
+* ` ArCoeff.of.tBodyAccJerkY,2 `
+* ` ArCoeff.of.tBodyAccJerkY,3 `
+* ` ArCoeff.of.tBodyAccJerkY,4 `
+* ` ArCoeff.of.tBodyAccJerkZ,1 `
+* ` ArCoeff.of.tBodyAccJerkZ,2 `
+* ` ArCoeff.of.tBodyAccJerkZ,3 `
+* ` ArCoeff.of.tBodyAccJerkZ,4 `
+* ` Correlation.of.tBodyAccJerkX,Y `
+* ` Correlation.of.tBodyAccJerkX,Z `
+* ` Correlation.of.tBodyAccJerkY,Z `
+* ` Mean.of.tBodyGyroX `
+* ` Mean.of.tBodyGyroY `
+* ` Mean.of.tBodyGyroZ `
+* ` Std.of.tBodyGyroX `
+* ` Std.of.tBodyGyroY `
+* ` Std.of.tBodyGyroZ `
+* ` Mad.of.tBodyGyroX `
+* ` Mad.of.tBodyGyroY `
+* ` Mad.of.tBodyGyroZ `
+* ` Max.of.tBodyGyroX `
+* ` Max.of.tBodyGyroY `
+* ` Max.of.tBodyGyroZ `
+* ` Min.of.tBodyGyroX `
+* ` Min.of.tBodyGyroY `
+* ` Min.of.tBodyGyroZ `
+* ` Sma.of.tBodyGyro `
+* ` Energy.of.tBodyGyroX `
+* ` Energy.of.tBodyGyroY `
+* ` Energy.of.tBodyGyroZ `
+* ` Iqr.of.tBodyGyroX `
+* ` Iqr.of.tBodyGyroY `
+* ` Iqr.of.tBodyGyroZ `
+* ` Entropy.of.tBodyGyroX `
+* ` Entropy.of.tBodyGyroY `
+* ` Entropy.of.tBodyGyroZ `
+* ` ArCoeff.of.tBodyGyroX,1 `
+* ` ArCoeff.of.tBodyGyroX,2 `
+* ` ArCoeff.of.tBodyGyroX,3 `
+* ` ArCoeff.of.tBodyGyroX,4 `
+* ` ArCoeff.of.tBodyGyroY,1 `
+* ` ArCoeff.of.tBodyGyroY,2 `
+* ` ArCoeff.of.tBodyGyroY,3 `
+* ` ArCoeff.of.tBodyGyroY,4 `
+* ` ArCoeff.of.tBodyGyroZ,1 `
+* ` ArCoeff.of.tBodyGyroZ,2 `
+* ` ArCoeff.of.tBodyGyroZ,3 `
+* ` ArCoeff.of.tBodyGyroZ,4 `
+* ` Correlation.of.tBodyGyroX,Y `
+* ` Correlation.of.tBodyGyroX,Z `
+* ` Correlation.of.tBodyGyroY,Z `
+* ` Mean.of.tBodyGyroJerkX `
+* ` Mean.of.tBodyGyroJerkY `
+* ` Mean.of.tBodyGyroJerkZ `
+* ` Std.of.tBodyGyroJerkX `
+* ` Std.of.tBodyGyroJerkY `
+* ` Std.of.tBodyGyroJerkZ `
+* ` Mad.of.tBodyGyroJerkX `
+* ` Mad.of.tBodyGyroJerkY `
+* ` Mad.of.tBodyGyroJerkZ `
+* ` Max.of.tBodyGyroJerkX `
+* ` Max.of.tBodyGyroJerkY `
+* ` Max.of.tBodyGyroJerkZ `
+* ` Min.of.tBodyGyroJerkX `
+* ` Min.of.tBodyGyroJerkY `
+* ` Min.of.tBodyGyroJerkZ `
+* ` Sma.of.tBodyGyroJerk `
+* ` Energy.of.tBodyGyroJerkX `
+* ` Energy.of.tBodyGyroJerkY `
+* ` Energy.of.tBodyGyroJerkZ `
+* ` Iqr.of.tBodyGyroJerkX `
+* ` Iqr.of.tBodyGyroJerkY `
+* ` Iqr.of.tBodyGyroJerkZ `
+* ` Entropy.of.tBodyGyroJerkX `
+* ` Entropy.of.tBodyGyroJerkY `
+* ` Entropy.of.tBodyGyroJerkZ `
+* ` ArCoeff.of.tBodyGyroJerkX,1 `
+* ` ArCoeff.of.tBodyGyroJerkX,2 `
+* ` ArCoeff.of.tBodyGyroJerkX,3 `
+* ` ArCoeff.of.tBodyGyroJerkX,4 `
+* ` ArCoeff.of.tBodyGyroJerkY,1 `
+* ` ArCoeff.of.tBodyGyroJerkY,2 `
+* ` ArCoeff.of.tBodyGyroJerkY,3 `
+* ` ArCoeff.of.tBodyGyroJerkY,4 `
+* ` ArCoeff.of.tBodyGyroJerkZ,1 `
+* ` ArCoeff.of.tBodyGyroJerkZ,2 `
+* ` ArCoeff.of.tBodyGyroJerkZ,3 `
+* ` ArCoeff.of.tBodyGyroJerkZ,4 `
+* ` Correlation.of.tBodyGyroJerkX,Y `
+* ` Correlation.of.tBodyGyroJerkX,Z `
+* ` Correlation.of.tBodyGyroJerkY,Z `
+* ` Mean.of.tBodyAccMag `
+* ` Std.of.tBodyAccMag `
+* ` Mad.of.tBodyAccMag `
+* ` Max.of.tBodyAccMag `
+* ` Min.of.tBodyAccMag `
+* ` Sma.of.tBodyAccMag `
+* ` Energy.of.tBodyAccMag `
+* ` Iqr.of.tBodyAccMag `
+* ` Entropy.of.tBodyAccMag `
+* ` ArCoeff.of.tBodyAccMag1 `
+* ` ArCoeff.of.tBodyAccMag2 `
+* ` ArCoeff.of.tBodyAccMag3 `
+* ` ArCoeff.of.tBodyAccMag4 `
+* ` Mean.of.tGravityAccMag `
+* ` Std.of.tGravityAccMag `
+* ` Mad.of.tGravityAccMag `
+* ` Max.of.tGravityAccMag `
+* ` Min.of.tGravityAccMag `
+* ` Sma.of.tGravityAccMag `
+* ` Energy.of.tGravityAccMag `
+* ` Iqr.of.tGravityAccMag `
+* ` Entropy.of.tGravityAccMag `
+* ` ArCoeff.of.tGravityAccMag1 `
+* ` ArCoeff.of.tGravityAccMag2 `
+* ` ArCoeff.of.tGravityAccMag3 `
+* ` ArCoeff.of.tGravityAccMag4 `
+* ` Mean.of.tBodyAccJerkMag `
+* ` Std.of.tBodyAccJerkMag `
+* ` Mad.of.tBodyAccJerkMag `
+* ` Max.of.tBodyAccJerkMag `
+* ` Min.of.tBodyAccJerkMag `
+* ` Sma.of.tBodyAccJerkMag `
+* ` Energy.of.tBodyAccJerkMag `
+* ` Iqr.of.tBodyAccJerkMag `
+* ` Entropy.of.tBodyAccJerkMag `
+* ` ArCoeff.of.tBodyAccJerkMag1 `
+* ` ArCoeff.of.tBodyAccJerkMag2 `
+* ` ArCoeff.of.tBodyAccJerkMag3 `
+* ` ArCoeff.of.tBodyAccJerkMag4 `
+* ` Mean.of.tBodyGyroMag `
+* ` Std.of.tBodyGyroMag `
+* ` Mad.of.tBodyGyroMag `
+* ` Max.of.tBodyGyroMag `
+* ` Min.of.tBodyGyroMag `
+* ` Sma.of.tBodyGyroMag `
+* ` Energy.of.tBodyGyroMag `
+* ` Iqr.of.tBodyGyroMag `
+* ` Entropy.of.tBodyGyroMag `
+* ` ArCoeff.of.tBodyGyroMag1 `
+* ` ArCoeff.of.tBodyGyroMag2 `
+* ` ArCoeff.of.tBodyGyroMag3 `
+* ` ArCoeff.of.tBodyGyroMag4 `
+* ` Mean.of.tBodyGyroJerkMag `
+* ` Std.of.tBodyGyroJerkMag `
+* ` Mad.of.tBodyGyroJerkMag `
+* ` Max.of.tBodyGyroJerkMag `
+* ` Min.of.tBodyGyroJerkMag `
+* ` Sma.of.tBodyGyroJerkMag `
+* ` Energy.of.tBodyGyroJerkMag `
+* ` Iqr.of.tBodyGyroJerkMag `
+* ` Entropy.of.tBodyGyroJerkMag `
+* ` ArCoeff.of.tBodyGyroJerkMag1 `
+* ` ArCoeff.of.tBodyGyroJerkMag2 `
+* ` ArCoeff.of.tBodyGyroJerkMag3 `
+* ` ArCoeff.of.tBodyGyroJerkMag4 `
+* ` Mean.of.fBodyAccX `
+* ` Mean.of.fBodyAccY `
+* ` Mean.of.fBodyAccZ `
+* ` Std.of.fBodyAccX `
+* ` Std.of.fBodyAccY `
+* ` Std.of.fBodyAccZ `
+* ` Mad.of.fBodyAccX `
+* ` Mad.of.fBodyAccY `
+* ` Mad.of.fBodyAccZ `
+* ` Max.of.fBodyAccX `
+* ` Max.of.fBodyAccY `
+* ` Max.of.fBodyAccZ `
+* ` Min.of.fBodyAccX `
+* ` Min.of.fBodyAccY `
+* ` Min.of.fBodyAccZ `
+* ` Sma.of.fBodyAcc `
+* ` Energy.of.fBodyAccX `
+* ` Energy.of.fBodyAccY `
+* ` Energy.of.fBodyAccZ `
+* ` Iqr.of.fBodyAccX `
+* ` Iqr.of.fBodyAccY `
+* ` Iqr.of.fBodyAccZ `
+* ` Entropy.of.fBodyAccX `
+* ` Entropy.of.fBodyAccY `
+* ` Entropy.of.fBodyAccZ `
+* ` Max.of.fBodyAcc-Inds-X `
+* ` Max.of.fBodyAcc-Inds-Y `
+* ` Max.of.fBodyAcc-Inds-Z `
+* ` Mean.of.fBodyAcc-Freq-X `
+* ` Mean.of.fBodyAcc-Freq-Y `
+* ` Mean.of.fBodyAcc-Freq-Z `
+* ` Skewness.of.fBodyAccX `
+* ` Kurtosis.of.fBodyAccX `
+* ` Skewness.of.fBodyAccY `
+* ` Kurtosis.of.fBodyAccY `
+* ` Skewness.of.fBodyAccZ `
+* ` Kurtosis.of.fBodyAccZ `
+* ` BandsEnergy.of.fBodyAcc1,8 `
+* ` BandsEnergy.of.fBodyAcc9,16 `
+* ` BandsEnergy.of.fBodyAcc17,24 `
+* ` BandsEnergy.of.fBodyAcc25,32 `
+* ` BandsEnergy.of.fBodyAcc33,40 `
+* ` BandsEnergy.of.fBodyAcc41,48 `
+* ` BandsEnergy.of.fBodyAcc49,56 `
+* ` BandsEnergy.of.fBodyAcc57,64 `
+* ` BandsEnergy.of.fBodyAcc1,16 `
+* ` BandsEnergy.of.fBodyAcc17,32 `
+* ` BandsEnergy.of.fBodyAcc33,48 `
+* ` BandsEnergy.of.fBodyAcc49,64 `
+* ` BandsEnergy.of.fBodyAcc1,24 `
+* ` BandsEnergy.of.fBodyAcc25,48 `
+* ` BandsEnergy.of.fBodyAcc1,8 `
+* ` BandsEnergy.of.fBodyAcc9,16 `
+* ` BandsEnergy.of.fBodyAcc17,24 `
+* ` BandsEnergy.of.fBodyAcc25,32 `
+* ` BandsEnergy.of.fBodyAcc33,40 `
+* ` BandsEnergy.of.fBodyAcc41,48 `
+* ` BandsEnergy.of.fBodyAcc49,56 `
+* ` BandsEnergy.of.fBodyAcc57,64 `
+* ` BandsEnergy.of.fBodyAcc1,16 `
+* ` BandsEnergy.of.fBodyAcc17,32 `
+* ` BandsEnergy.of.fBodyAcc33,48 `
+* ` BandsEnergy.of.fBodyAcc49,64 `
+* ` BandsEnergy.of.fBodyAcc1,24 `
+* ` BandsEnergy.of.fBodyAcc25,48 `
+* ` BandsEnergy.of.fBodyAcc1,8 `
+* ` BandsEnergy.of.fBodyAcc9,16 `
+* ` BandsEnergy.of.fBodyAcc17,24 `
+* ` BandsEnergy.of.fBodyAcc25,32 `
+* ` BandsEnergy.of.fBodyAcc33,40 `
+* ` BandsEnergy.of.fBodyAcc41,48 `
+* ` BandsEnergy.of.fBodyAcc49,56 `
+* ` BandsEnergy.of.fBodyAcc57,64 `
+* ` BandsEnergy.of.fBodyAcc1,16 `
+* ` BandsEnergy.of.fBodyAcc17,32 `
+* ` BandsEnergy.of.fBodyAcc33,48 `
+* ` BandsEnergy.of.fBodyAcc49,64 `
+* ` BandsEnergy.of.fBodyAcc1,24 `
+* ` BandsEnergy.of.fBodyAcc25,48 `
+* ` Mean.of.fBodyAccJerkX `
+* ` Mean.of.fBodyAccJerkY `
+* ` Mean.of.fBodyAccJerkZ `
+* ` Std.of.fBodyAccJerkX `
+* ` Std.of.fBodyAccJerkY `
+* ` Std.of.fBodyAccJerkZ `
+* ` Mad.of.fBodyAccJerkX `
+* ` Mad.of.fBodyAccJerkY `
+* ` Mad.of.fBodyAccJerkZ `
+* ` Max.of.fBodyAccJerkX `
+* ` Max.of.fBodyAccJerkY `
+* ` Max.of.fBodyAccJerkZ `
+* ` Min.of.fBodyAccJerkX `
+* ` Min.of.fBodyAccJerkY `
+* ` Min.of.fBodyAccJerkZ `
+* ` Sma.of.fBodyAccJerk `
+* ` Energy.of.fBodyAccJerkX `
+* ` Energy.of.fBodyAccJerkY `
+* ` Energy.of.fBodyAccJerkZ `
+* ` Iqr.of.fBodyAccJerkX `
+* ` Iqr.of.fBodyAccJerkY `
+* ` Iqr.of.fBodyAccJerkZ `
+* ` Entropy.of.fBodyAccJerkX `
+* ` Entropy.of.fBodyAccJerkY `
+* ` Entropy.of.fBodyAccJerkZ `
+* ` Max.of.fBodyAccJerk-Inds-X `
+* ` Max.of.fBodyAccJerk-Inds-Y `
+* ` Max.of.fBodyAccJerk-Inds-Z `
+* ` Mean.of.fBodyAccJerk-Freq-X `
+* ` Mean.of.fBodyAccJerk-Freq-Y `
+* ` Mean.of.fBodyAccJerk-Freq-Z `
+* ` Skewness.of.fBodyAccJerkX `
+* ` Kurtosis.of.fBodyAccJerkX `
+* ` Skewness.of.fBodyAccJerkY `
+* ` Kurtosis.of.fBodyAccJerkY `
+* ` Skewness.of.fBodyAccJerkZ `
+* ` Kurtosis.of.fBodyAccJerkZ `
+* ` BandsEnergy.of.fBodyAccJerk1,8 `
+* ` BandsEnergy.of.fBodyAccJerk9,16 `
+* ` BandsEnergy.of.fBodyAccJerk17,24 `
+* ` BandsEnergy.of.fBodyAccJerk25,32 `
+* ` BandsEnergy.of.fBodyAccJerk33,40 `
+* ` BandsEnergy.of.fBodyAccJerk41,48 `
+* ` BandsEnergy.of.fBodyAccJerk49,56 `
+* ` BandsEnergy.of.fBodyAccJerk57,64 `
+* ` BandsEnergy.of.fBodyAccJerk1,16 `
+* ` BandsEnergy.of.fBodyAccJerk17,32 `
+* ` BandsEnergy.of.fBodyAccJerk33,48 `
+* ` BandsEnergy.of.fBodyAccJerk49,64 `
+* ` BandsEnergy.of.fBodyAccJerk1,24 `
+* ` BandsEnergy.of.fBodyAccJerk25,48 `
+* ` BandsEnergy.of.fBodyAccJerk1,8 `
+* ` BandsEnergy.of.fBodyAccJerk9,16 `
+* ` BandsEnergy.of.fBodyAccJerk17,24 `
+* ` BandsEnergy.of.fBodyAccJerk25,32 `
+* ` BandsEnergy.of.fBodyAccJerk33,40 `
+* ` BandsEnergy.of.fBodyAccJerk41,48 `
+* ` BandsEnergy.of.fBodyAccJerk49,56 `
+* ` BandsEnergy.of.fBodyAccJerk57,64 `
+* ` BandsEnergy.of.fBodyAccJerk1,16 `
+* ` BandsEnergy.of.fBodyAccJerk17,32 `
+* ` BandsEnergy.of.fBodyAccJerk33,48 `
+* ` BandsEnergy.of.fBodyAccJerk49,64 `
+* ` BandsEnergy.of.fBodyAccJerk1,24 `
+* ` BandsEnergy.of.fBodyAccJerk25,48 `
+* ` BandsEnergy.of.fBodyAccJerk1,8 `
+* ` BandsEnergy.of.fBodyAccJerk9,16 `
+* ` BandsEnergy.of.fBodyAccJerk17,24 `
+* ` BandsEnergy.of.fBodyAccJerk25,32 `
+* ` BandsEnergy.of.fBodyAccJerk33,40 `
+* ` BandsEnergy.of.fBodyAccJerk41,48 `
+* ` BandsEnergy.of.fBodyAccJerk49,56 `
+* ` BandsEnergy.of.fBodyAccJerk57,64 `
+* ` BandsEnergy.of.fBodyAccJerk1,16 `
+* ` BandsEnergy.of.fBodyAccJerk17,32 `
+* ` BandsEnergy.of.fBodyAccJerk33,48 `
+* ` BandsEnergy.of.fBodyAccJerk49,64 `
+* ` BandsEnergy.of.fBodyAccJerk1,24 `
+* ` BandsEnergy.of.fBodyAccJerk25,48 `
+* ` Mean.of.fBodyGyroX `
+* ` Mean.of.fBodyGyroY `
+* ` Mean.of.fBodyGyroZ `
+* ` Std.of.fBodyGyroX `
+* ` Std.of.fBodyGyroY `
+* ` Std.of.fBodyGyroZ `
+* ` Mad.of.fBodyGyroX `
+* ` Mad.of.fBodyGyroY `
+* ` Mad.of.fBodyGyroZ `
+* ` Max.of.fBodyGyroX `
+* ` Max.of.fBodyGyroY `
+* ` Max.of.fBodyGyroZ `
+* ` Min.of.fBodyGyroX `
+* ` Min.of.fBodyGyroY `
+* ` Min.of.fBodyGyroZ `
+* ` Sma.of.fBodyGyro `
+* ` Energy.of.fBodyGyroX `
+* ` Energy.of.fBodyGyroY `
+* ` Energy.of.fBodyGyroZ `
+* ` Iqr.of.fBodyGyroX `
+* ` Iqr.of.fBodyGyroY `
+* ` Iqr.of.fBodyGyroZ `
+* ` Entropy.of.fBodyGyroX `
+* ` Entropy.of.fBodyGyroY `
+* ` Entropy.of.fBodyGyroZ `
+* ` Max.of.fBodyGyro-Inds-X `
+* ` Max.of.fBodyGyro-Inds-Y `
+* ` Max.of.fBodyGyro-Inds-Z `
+* ` Mean.of.fBodyGyro-Freq-X `
+* ` Mean.of.fBodyGyro-Freq-Y `
+* ` Mean.of.fBodyGyro-Freq-Z `
+* ` Skewness.of.fBodyGyroX `
+* ` Kurtosis.of.fBodyGyroX `
+* ` Skewness.of.fBodyGyroY `
+* ` Kurtosis.of.fBodyGyroY `
+* ` Skewness.of.fBodyGyroZ `
+* ` Kurtosis.of.fBodyGyroZ `
+* ` BandsEnergy.of.fBodyGyro1,8 `
+* ` BandsEnergy.of.fBodyGyro9,16 `
+* ` BandsEnergy.of.fBodyGyro17,24 `
+* ` BandsEnergy.of.fBodyGyro25,32 `
+* ` BandsEnergy.of.fBodyGyro33,40 `
+* ` BandsEnergy.of.fBodyGyro41,48 `
+* ` BandsEnergy.of.fBodyGyro49,56 `
+* ` BandsEnergy.of.fBodyGyro57,64 `
+* ` BandsEnergy.of.fBodyGyro1,16 `
+* ` BandsEnergy.of.fBodyGyro17,32 `
+* ` BandsEnergy.of.fBodyGyro33,48 `
+* ` BandsEnergy.of.fBodyGyro49,64 `
+* ` BandsEnergy.of.fBodyGyro1,24 `
+* ` BandsEnergy.of.fBodyGyro25,48 `
+* ` BandsEnergy.of.fBodyGyro1,8 `
+* ` BandsEnergy.of.fBodyGyro9,16 `
+* ` BandsEnergy.of.fBodyGyro17,24 `
+* ` BandsEnergy.of.fBodyGyro25,32 `
+* ` BandsEnergy.of.fBodyGyro33,40 `
+* ` BandsEnergy.of.fBodyGyro41,48 `
+* ` BandsEnergy.of.fBodyGyro49,56 `
+* ` BandsEnergy.of.fBodyGyro57,64 `
+* ` BandsEnergy.of.fBodyGyro1,16 `
+* ` BandsEnergy.of.fBodyGyro17,32 `
+* ` BandsEnergy.of.fBodyGyro33,48 `
+* ` BandsEnergy.of.fBodyGyro49,64 `
+* ` BandsEnergy.of.fBodyGyro1,24 `
+* ` BandsEnergy.of.fBodyGyro25,48 `
+* ` BandsEnergy.of.fBodyGyro1,8 `
+* ` BandsEnergy.of.fBodyGyro9,16 `
+* ` BandsEnergy.of.fBodyGyro17,24 `
+* ` BandsEnergy.of.fBodyGyro25,32 `
+* ` BandsEnergy.of.fBodyGyro33,40 `
+* ` BandsEnergy.of.fBodyGyro41,48 `
+* ` BandsEnergy.of.fBodyGyro49,56 `
+* ` BandsEnergy.of.fBodyGyro57,64 `
+* ` BandsEnergy.of.fBodyGyro1,16 `
+* ` BandsEnergy.of.fBodyGyro17,32 `
+* ` BandsEnergy.of.fBodyGyro33,48 `
+* ` BandsEnergy.of.fBodyGyro49,64 `
+* ` BandsEnergy.of.fBodyGyro1,24 `
+* ` BandsEnergy.of.fBodyGyro25,48 `
+* ` Mean.of.fBodyAccMag `
+* ` Std.of.fBodyAccMag `
+* ` Mad.of.fBodyAccMag `
+* ` Max.of.fBodyAccMag `
+* ` Min.of.fBodyAccMag `
+* ` Sma.of.fBodyAccMag `
+* ` Energy.of.fBodyAccMag `
+* ` Iqr.of.fBodyAccMag `
+* ` Entropy.of.fBodyAccMag `
+* ` Max.of.fBodyAccMag-Inds `
+* ` Mean.of.fBodyAccMag-Freq `
+* ` Skewness.of.fBodyAccMag `
+* ` Kurtosis.of.fBodyAccMag `
+* ` Mean.of.fBodyBodyAccJerkMag `
+* ` Std.of.fBodyBodyAccJerkMag `
+* ` Mad.of.fBodyBodyAccJerkMag `
+* ` Max.of.fBodyBodyAccJerkMag `
+* ` Min.of.fBodyBodyAccJerkMag `
+* ` Sma.of.fBodyBodyAccJerkMag `
+* ` Energy.of.fBodyBodyAccJerkMag `
+* ` Iqr.of.fBodyBodyAccJerkMag `
+* ` Entropy.of.fBodyBodyAccJerkMag `
+* ` Max.of.fBodyBodyAccJerkMag-Inds `
+* ` Mean.of.fBodyBodyAccJerkMag-Freq `
+* ` Skewness.of.fBodyBodyAccJerkMag `
+* ` Kurtosis.of.fBodyBodyAccJerkMag `
+* ` Mean.of.fBodyBodyGyroMag `
+* ` Std.of.fBodyBodyGyroMag `
+* ` Mad.of.fBodyBodyGyroMag `
+* ` Max.of.fBodyBodyGyroMag `
+* ` Min.of.fBodyBodyGyroMag `
+* ` Sma.of.fBodyBodyGyroMag `
+* ` Energy.of.fBodyBodyGyroMag `
+* ` Iqr.of.fBodyBodyGyroMag `
+* ` Entropy.of.fBodyBodyGyroMag `
+* ` Max.of.fBodyBodyGyroMag-Inds `
+* ` Mean.of.fBodyBodyGyroMag-Freq `
+* ` Skewness.of.fBodyBodyGyroMag `
+* ` Kurtosis.of.fBodyBodyGyroMag `
+* ` Mean.of.fBodyBodyGyroJerkMag `
+* ` Std.of.fBodyBodyGyroJerkMag `
+* ` Mad.of.fBodyBodyGyroJerkMag `
+* ` Max.of.fBodyBodyGyroJerkMag `
+* ` Min.of.fBodyBodyGyroJerkMag `
+* ` Sma.of.fBodyBodyGyroJerkMag `
+* ` Energy.of.fBodyBodyGyroJerkMag `
+* ` Iqr.of.fBodyBodyGyroJerkMag `
+* ` Entropy.of.fBodyBodyGyroJerkMag `
+* ` Max.of.fBodyBodyGyroJerkMag-Inds `
+* ` Mean.of.fBodyBodyGyroJerkMag-Freq `
+* ` Skewness.of.fBodyBodyGyroJerkMag `
+* ` Kurtosis.of.fBodyBodyGyroJerkMag `
+* ` Angle.of.tBodyAccMean,gravity `
+* ` Angle.of.tBodyAccJerkMean,gravityMean `
+* ` Angle.of.tBodyGyroMean,gravityMean `
+* ` Angle.of.tBodyGyroJerkMean,gravityMean `
+* ` Angle.of.X,gravityMean `
+* ` Angle.of.Y,gravityMean `
+* ` Angle.of.Z,gravityMean `
+
 
 
 ## Activity Labels (with short description)
