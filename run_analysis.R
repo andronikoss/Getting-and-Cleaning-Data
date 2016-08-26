@@ -1,6 +1,6 @@
 # ---- Peer Graded Assignment (Getting and Cleaning Data) ----
 # Written by Andranik Stepanyan
-# Thu Aug 25 22:35:16 2016
+# Fri Aug 26 21:35:22 2016
 
 
 # Loading packages
@@ -26,7 +26,7 @@ sbj2 <- read.table("./train/subject_train.txt", colClasses = "numeric")
 act2 <- read.table("./train/y_train.txt", colClasses = "numeric")
 table(sbj2);table(act2)
 
-# Adding the variables to each data set.
+# Completing/Adding the variables to each data set.
 
 data1$subject <- sbj1$V1
 data2$subject <- sbj2$V1
@@ -34,11 +34,11 @@ data2$subject <- sbj2$V1
 data1$activity <- act1$V1
 data2$activity <- act2$V1
 
-# ---- Task 1: Merging Data into one common Big Data. ----
+# ---- Task 1: Merging Data into one common Big Data ----
 df <- rbind(data1, data2)
 
-# ---- Task 2: Extracts only the measurements on the mean and standard deviation for each measurement.----
-# Get only the data on mean and std. dev.
+# ---- Task 2: Extracts only the measurements on the mean and standard ----
+# deviation for each measurement. Get only the data on mean and std. dev.
 Name.of.Features <- read.table("./features.txt", stringsAsFactors = F)
 str(Name.of.Features)
 
@@ -55,6 +55,7 @@ df$activity <- f
 
 # ---- Task 4: Appropriately labels the data set with descriptive variable names ----
 
+# Create a list of used functions (see features_info.txt)
 list.of.func <- c("mean()",  #: Mean value
 "std()",   #: Standard deviation
 "mad()",   #: Median absolute deviation 
@@ -75,16 +76,18 @@ list.of.func <- c("mean()",  #: Mean value
 
 tidy.names <-gsub("\\(\\)", "", list.of.func) 
 tidy.names <- paste0(toupper(substring(tidy.names, 1, 1)),substring(tidy.names, 2))
-tidy.names <- paste0(tidy.names, ".of")
+tidy.names <- paste0(tidy.names, ".of.")
+
 N.short <- Name.of.Features[,2]
+length(unique(N.short)) # 477 different categories
 for(i in 1:length(list.of.func)){
       
       ix <- grep(list.of.func[i], N.short)
-#       ix <- grep("[Mm]ean\\(", N.short)
       N.short[ix] <- paste0(tidy.names[i],sapply(strsplit(N.short[ix], list.of.func[i]),
                                               function(x) if (length(x)!=1) {paste0(x[1], x[2])}else {x}))
 }
-N.short <- gsub("-\\(\\)-|-\\(\\)", "", N.short)
+N.short <- gsub("-\\(\\)-|-\\(\\)|\\(|\\)", "", N.short)
+length(unique(N.short)) # 477 different categories (Well Done!)
 names(df)[1:561] <- N.short
 
 
@@ -94,7 +97,8 @@ names(df)[1:561] <- N.short
 df.melted <- melt(df, id = c("subject", "activity"))
 df.melted <- dcast(df.melted, subject + activity ~ variable, mean)
 
-
+dim(df.melted) # 180 479 (with activity and subject)
+View(df.melted)
 
 
 
