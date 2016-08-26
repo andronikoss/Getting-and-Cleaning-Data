@@ -7,7 +7,7 @@ Written by Andranik Stepanyan
 Here you can find some useful information about the variables, datasets and their manipulation, which were used in the course Getting and Cleaning Data provided by Johns Hopkins (Coursera).
 
 ### Source Data
-A thorough description of the dataset can be found at [The UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+A thorough description of the dataset can be found at [The UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 The original source of dataset can be found [here.](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 ### Data Set Information
