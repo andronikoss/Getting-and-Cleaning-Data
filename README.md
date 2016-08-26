@@ -4,7 +4,7 @@ Peer Graded Assignment
 Written by Andranik Stepanyan
 
 ### Brief Description
-Here you can find some useful information about the variables, datasets and their manipulation, which were used in the course Getting and Cleaning Data provided by Johns Hopkins (Coursera).
+Here you can find some useful information about the variables, datasets and their manipulation, which were used in the course Getting and Cleaning Data provided by Johns Hopkins (Coursera). This Repository contains an R-script, which makes some nice transformations. Besides there is a data cook book available.  
 
 ### Source Data
 A thorough description of the dataset can be found at [The UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
