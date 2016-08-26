@@ -6,8 +6,8 @@ This code book summarizes the resulting data fields after running `run_analysis.
 * `activity` - The kind/type of activity performed.
 
 ## All Measurements
-1 * `Mean.oftBodyAccX`
-2 * `Mean.oftBodyAccY`
+* `Mean.oftBodyAccX`
+* `Mean.oftBodyAccY`
 3 * `Mean.oftBodyAccZ`
 4 * `Std.oftBodyAccX`
 5 * `Std.oftBodyAccY`
