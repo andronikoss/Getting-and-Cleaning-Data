@@ -4,7 +4,6 @@
 
 
 # Loading packages
-library(dplyr)
 library(reshape2)
 
 # Cleaning the memory cache
@@ -35,10 +34,10 @@ data2$subject <- sbj2$V1
 data1$activity <- act1$V1
 data2$activity <- act2$V1
 
-# Task 1: Merging Data into one common Big Data.
+# ---- Task 1: Merging Data into one common Big Data. ----
 df <- rbind(data1, data2)
 
-# Task 2: Extracts only the measurements on the mean and standard deviation for each measurement.
+# ---- Task 2: Extracts only the measurements on the mean and standard deviation for each measurement.----
 # Get only the data on mean and std. dev.
 Name.of.Features <- read.table("./features.txt", stringsAsFactors = F)
 str(Name.of.Features)
@@ -55,7 +54,6 @@ levels(f)  <- activities[,2]
 df$activity <- f
 
 # ---- Task 4: Appropriately labels the data set with descriptive variable names ----
-read.table("features_info.txt")
 
 list.of.func <- c("mean()",  #: Mean value
 "std()",   #: Standard deviation
@@ -74,9 +72,8 @@ list.of.func <- c("mean()",  #: Mean value
 "kurtosis()",    #: kurtosis of the frequency domain signal 
 "bandsEnergy()", #: Energy of a frequency interval within the 64 bins of the FFT of each window.
 "angle()")       #: Angle between to vectors.
-tidy.names <-gsub("\\(\\)", "", list.of.func) 
-# list.of.func <- gsub("\\(\\)", "\\\\(\\\\)", list.of.func) 
 
+tidy.names <-gsub("\\(\\)", "", list.of.func) 
 tidy.names <- paste0(toupper(substring(tidy.names, 1, 1)),substring(tidy.names, 2))
 tidy.names <- paste0(tidy.names, ".of")
 N.short <- Name.of.Features[,2]
@@ -87,8 +84,8 @@ for(i in 1:length(list.of.func)){
       N.short[ix] <- paste0(tidy.names[i],sapply(strsplit(N.short[ix], list.of.func[i]),
                                               function(x) if (length(x)!=1) {paste0(x[1], x[2])}else {x}))
 }
-N.short <- gsub("-\\(\\)-|-\\(\\)|-Freq\\(\\)", "", N.short)
-names(df) <- N.short
+N.short <- gsub("-\\(\\)-|-\\(\\)", "", N.short)
+names(df)[1:561] <- N.short
 
 
 # ---- Task 5: From the data set in step 4, creates a second, independent  ----
@@ -96,7 +93,6 @@ names(df) <- N.short
 
 df.melted <- melt(df, id = c("subject", "activity"))
 df.melted <- dcast(df.melted, subject + activity ~ variable, mean)
-
 
 
 
